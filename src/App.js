@@ -25,8 +25,8 @@
 // export default App;
 
 import React, { useState } from 'react';
-import LandingPage from './LandingPage';
-import HomePage from './HomePage';
+import LandingPage from './pages/LandingPage';
+import HomePage from './pages/HomePage';
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
