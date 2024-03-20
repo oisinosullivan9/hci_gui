@@ -1,4 +1,4 @@
-.LandingPage {
+   .LandingPage {
     text-align: center;
   }
   
@@ -17,20 +17,49 @@
     margin-bottom: 20px;
   }
   
-  .description {
+  .curved-box {
+    width: 75%;
+    background-color: #36454f;
+    border-radius: 20px;
+    padding: 20px;
     margin-bottom: 20px;
+  }
+  
+  .description {
+    margin: 0;
   }
   
   .input-field {
     margin-bottom: 10px;
   }
   
+  .curved-input {
+    border-radius: 8px;
+    padding: 10px;
+    width: 80%;
+  }
+  
   .login-button {
     background-color: #61dafb;
     color: white;
     border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 15px 30px;
+    border-radius: 10px;
     cursor: pointer;
+  }
+  
+  .admin-login {
+    background-color: #61dafb;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   

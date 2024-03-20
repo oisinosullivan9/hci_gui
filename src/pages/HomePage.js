@@ -24,9 +24,7 @@ const HomePage = () => {
             <a href="#">More Products</a>
             <a href="#">Contribute</a>
             <a href="#">Contact</a>
-            <div className="help-button" onClick={toggleMenu}>
-              Help
-            </div>
+            <a href="#">Help</a>
           </div>
           <div className="menu-button" onClick={toggleMenu}>
             Menu
