@@ -19,7 +19,7 @@ const HomePage = () => {
         <h1 className="brand-name">Sentinel</h1>
         <div className="menu-container">
           <div className={`menu-content ${menuOpen ? 'open' : ''}`}>
-            <a href="#">About</a> {/* Replace with actual links */}
+            <a href="#">About</a> 
             <a href="#">Settings</a>
             <a href="#">More Products</a>
             <a href="#">Contribute</a>

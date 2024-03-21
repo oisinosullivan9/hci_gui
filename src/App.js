@@ -8,7 +8,7 @@ function App() {
   const handleLogin = (event) => {
     event.preventDefault(); // Prevent default form submission behavior
 
-    // Simulate authentication (replace with actual authentication logic)
+ 
     setIsLoggedIn(true);
   };
 
